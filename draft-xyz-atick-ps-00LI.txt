@@ -1,14 +1,3 @@
-
-
-
-
-Network Working Group                                        D. von Hugo
-Internet-Draft                           Telekom Innovation Laboratories
-Intended status: Standards Track                             B. Sarikaya
-Expires: November 23, 2018                           Denpel Informatique
-                                                              L. Iannone
-                                                       Telecom ParisTech
-
                                                             May 22, 2018
 
 
@@ -45,18 +34,6 @@ Status of This Memo
    material or to cite them other than as "work in progress."
 
    This Internet-Draft will expire on November 23, 2018.
-
-
-
-
-
-
-
-
-von Hugo, et al.        Expires November 23, 2018               [Page 1]
-
-Internet-Draft           Atick Problem Statement                May 2018
-
 
 Copyright Notice
 
@@ -106,14 +83,6 @@ Table of Contents
    Added complexity in case of multicast traffic and increased signaling
    for tunnel management are further drawbacks.  Tunnels may introduce
    vulnerabilities (e.g. in terms of attack risks at the anchor points
-
-
-
-von Hugo, et al.        Expires November 23, 2018               [Page 2]
-
-Internet-Draft           Atick Problem Statement                May 2018
-
-
    or reduced user privacy by association between address and topology)
    or add to the potential for receiver overload and thus DOS attacks
    [I-D.ietf-intarea-tunnels].  Finally without other measures such as
@@ -162,14 +131,6 @@ Internet-Draft           Atick Problem Statement                May 2018
 
    To start the communication, a device needs to know the identifier of
    the destination and then relies on a process to lookup on a network
-
-
-
-von Hugo, et al.        Expires November 23, 2018               [Page 3]
-
-Internet-Draft           Atick Problem Statement                May 2018
-
-
    identifier and return the locator(s).  Note that both identifier and
    locator can be carried in clear in packet headers.
 
@@ -217,15 +178,6 @@ Internet-Draft           Atick Problem Statement                May 2018
    Compromise of a mapping system is very bad since it would allow
    attackers to take control of traffic and to misdirect it.
 
-
-
-
-
-von Hugo, et al.        Expires November 23, 2018               [Page 4]
-
-Internet-Draft           Atick Problem Statement                May 2018
-
-
 4.  IANA Considerations
 
    TBD.
@@ -272,16 +224,6 @@ Internet-Draft           Atick Problem Statement                May 2018
               Architecture", draft-ietf-intarea-tunnels-08 (work in
               progress), January 2018.
 
-
-
-
-
-
-von Hugo, et al.        Expires November 23, 2018               [Page 5]
-
-Internet-Draft           Atick Problem Statement                May 2018
-
-
    [I-D.ietf-lisp-sec]
               Maino, F., Ermagan, V., Cabellos-Aparicio, A., and D.
               Saucez, "LISP-Security (LISP-SEC)", draft-ietf-lisp-sec-15
@@ -295,27 +237,7 @@ Internet-Draft           Atick Problem Statement                May 2018
 
 Authors' Addresses
 
-   Dirk von Hugo
-   Telekom Innovation Laboratories
-   Deutsche-Telekom-Allee 7
-   D-64295 Darmstadt
-   Germany
-
-   Email: Dirk.von-Hugo@telekom.de
-
-
-   Behcet Sarikaya
-   Denpel Informatique
-
-   Email: sarikaya@ieee.org
-
-
-   Luigi Iannone
-   Telecom ParisTech
-
-   Email: ggx@gigix.net
-
-
+    TBD
 
 
 
